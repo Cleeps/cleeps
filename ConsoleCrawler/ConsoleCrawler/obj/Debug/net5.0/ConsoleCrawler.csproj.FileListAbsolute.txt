@@ -14,3 +14,19 @@ C:\Users\nerdy\Desktop\GDAPS Files\ConsoleCrawler\ConsoleCrawler\obj\Debug\net5.
 C:\Users\nerdy\Desktop\GDAPS Files\ConsoleCrawler\ConsoleCrawler\obj\Debug\net5.0\ref\ConsoleCrawler.dll
 C:\Users\nerdy\Desktop\GDAPS Files\ConsoleCrawler\ConsoleCrawler\obj\Debug\net5.0\ConsoleCrawler.pdb
 C:\Users\nerdy\Desktop\GDAPS Files\ConsoleCrawler\ConsoleCrawler\obj\Debug\net5.0\ConsoleCrawler.genruntimeconfig.cache
+C:\Users\nerdy\source\repos\cleeps\ConsoleCrawler\ConsoleCrawler\bin\Debug\net5.0\ConsoleCrawler.exe
+C:\Users\nerdy\source\repos\cleeps\ConsoleCrawler\ConsoleCrawler\bin\Debug\net5.0\ConsoleCrawler.deps.json
+C:\Users\nerdy\source\repos\cleeps\ConsoleCrawler\ConsoleCrawler\bin\Debug\net5.0\ConsoleCrawler.runtimeconfig.json
+C:\Users\nerdy\source\repos\cleeps\ConsoleCrawler\ConsoleCrawler\bin\Debug\net5.0\ConsoleCrawler.runtimeconfig.dev.json
+C:\Users\nerdy\source\repos\cleeps\ConsoleCrawler\ConsoleCrawler\bin\Debug\net5.0\ConsoleCrawler.dll
+C:\Users\nerdy\source\repos\cleeps\ConsoleCrawler\ConsoleCrawler\bin\Debug\net5.0\ref\ConsoleCrawler.dll
+C:\Users\nerdy\source\repos\cleeps\ConsoleCrawler\ConsoleCrawler\bin\Debug\net5.0\ConsoleCrawler.pdb
+C:\Users\nerdy\source\repos\cleeps\ConsoleCrawler\ConsoleCrawler\obj\Debug\net5.0\ConsoleCrawler.csproj.AssemblyReference.cache
+C:\Users\nerdy\source\repos\cleeps\ConsoleCrawler\ConsoleCrawler\obj\Debug\net5.0\ConsoleCrawler.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nerdy\source\repos\cleeps\ConsoleCrawler\ConsoleCrawler\obj\Debug\net5.0\ConsoleCrawler.AssemblyInfoInputs.cache
+C:\Users\nerdy\source\repos\cleeps\ConsoleCrawler\ConsoleCrawler\obj\Debug\net5.0\ConsoleCrawler.AssemblyInfo.cs
+C:\Users\nerdy\source\repos\cleeps\ConsoleCrawler\ConsoleCrawler\obj\Debug\net5.0\ConsoleCrawler.csproj.CoreCompileInputs.cache
+C:\Users\nerdy\source\repos\cleeps\ConsoleCrawler\ConsoleCrawler\obj\Debug\net5.0\ConsoleCrawler.dll
+C:\Users\nerdy\source\repos\cleeps\ConsoleCrawler\ConsoleCrawler\obj\Debug\net5.0\ref\ConsoleCrawler.dll
+C:\Users\nerdy\source\repos\cleeps\ConsoleCrawler\ConsoleCrawler\obj\Debug\net5.0\ConsoleCrawler.pdb
+C:\Users\nerdy\source\repos\cleeps\ConsoleCrawler\ConsoleCrawler\obj\Debug\net5.0\ConsoleCrawler.genruntimeconfig.cache
