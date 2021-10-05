@@ -8,19 +8,23 @@
     "net5.0": []
   },
   "packageFolders": {
-    "C:\\Users\\nerdy\\.nuget\\packages\\": {}
+    "D:\\Profiles\\cbc4418\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\nerdy\\source\\repos\\cleeps\\ConsoleCrawler\\ConsoleCrawler\\ConsoleCrawler.csproj",
+      "projectUniqueName": "D:\\Profiles\\cbc4418\\Source\\Repos\\cleeps\\ConsoleCrawler\\ConsoleCrawler\\ConsoleCrawler.csproj",
       "projectName": "ConsoleCrawler",
-      "projectPath": "C:\\Users\\nerdy\\source\\repos\\cleeps\\ConsoleCrawler\\ConsoleCrawler\\ConsoleCrawler.csproj",
-      "packagesPath": "C:\\Users\\nerdy\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\nerdy\\source\\repos\\cleeps\\ConsoleCrawler\\ConsoleCrawler\\obj\\",
+      "projectPath": "D:\\Profiles\\cbc4418\\Source\\Repos\\cleeps\\ConsoleCrawler\\ConsoleCrawler\\ConsoleCrawler.csproj",
+      "packagesPath": "D:\\Profiles\\cbc4418\\.nuget\\packages\\",
+      "outputPath": "D:\\Profiles\\cbc4418\\Source\\Repos\\cleeps\\ConsoleCrawler\\ConsoleCrawler\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "C:\\Users\\nerdy\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "Z:\\IGMProfile\\AppData\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -60,7 +64,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
       }
     }
   }

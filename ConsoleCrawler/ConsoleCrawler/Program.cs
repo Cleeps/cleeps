@@ -6,7 +6,8 @@ namespace ConsoleCrawler
     {
         static void Main(string[] args)
         {
-            //Variable List
+            /*Variable List
+            string cellNumber;
             string cell0 = "0";
             string cell1 = "0";
             string cell2 = "0";
@@ -160,170 +161,35 @@ namespace ConsoleCrawler
             string cell150 = "0";
             string cell151 = "0";
             string cell152 = "0";
+            */
+
+            int[] values = new int[4] {0, 1, 2, 3};
 
             //Stage
             int stage = 0;
+            int cellNumber = 0;
 
-            switch (stage)
+            /*switch (stage)
             {
-                case 0:
-                    cell0 = "0";
-                    cell1 = "0";
-                    cell2 = "0";
-                    cell3 = "0";
-                    cell4 = "0";
-                    cell5 = "0";
-                    cell6 = "0";
-                    cell7 = "0";
-                    cell8 = "0";
-                    cell9 = "0";
-                    cell10 = "0";
-                    cell11 = "0";
-                    cell12 = "0";
-                    cell13 = "0";
-                    cell14 = "0";
-                    cell15 = "0";
-                    cell16 = "0";
-                    cell17 = "0";
-                    cell18 = "C";
-                    cell19 = "O";
-                    cell20 = "N";
-                    cell21 = "S";
-                    cell22 = "O";
-                    cell23 = "L";
-                    cell24 = "E";
-                    cell25 = " ";
-                    cell26 = " ";
-                    cell27 = " ";
-                    cell28 = " ";
-                    cell29 = " ";
-                    cell30 = " ";
-                    cell31 = " ";
-                    cell32 = " ";
-                    cell33 = "0";
-                    cell34 = "0";
-                    cell35 = " ";
-                    cell36 = " ";
-                    cell37 = " ";
-                    cell38 = " ";
-                    cell39 = " ";
-                    cell40 = " ";
-                    cell41 = " ";
-                    cell42 = " ";
-                    cell43 = "C";
-                    cell44 = "R";
-                    cell45 = "A";
-                    cell46 = "W";
-                    cell47 = "L";
-                    cell48 = "E";
-                    cell49 = "R";
-                    cell50 = "0";
-                    cell51 = "0";
-                    cell52 = "0";
-                    cell53 = "0";
-                    cell54 = "0";
-                    cell55 = "0";
-                    cell56 = "0";
-                    cell57 = "0";
-                    cell58 = "0";
-                    cell59 = "0";
-                    cell60 = "0";
-                    cell61 = "0";
-                    cell62 = "0";
-                    cell63 = "0";
-                    cell64 = "0";
-                    cell65 = "0";
-                    cell66 = "0";
-                    cell67 = "0";
-                    cell68 = "|";
-                    cell69 = " ";
-                    cell70 = " ";
-                    cell71 = " ";
-                    cell72 = " ";
-                    cell73 = " ";
-                    cell74 = " ";
-                    cell75 = " ";
-                    cell76 = " ";
-                    cell77 = " ";
-                    cell78 = " ";
-                    cell79 = " ";
-                    cell80 = " ";
-                    cell81 = " ";
-                    cell82 = " ";
-                    cell83 = " ";
-                    cell84 = "|";
-                    cell85 = "|";
-                    cell86 = " ";
-                    cell87 = " ";
-                    cell88 = " ";
-                    cell89 = " ";
-                    cell90 = " ";
-                    cell91 = " ";
-                    cell92 = " ";
-                    cell93 = " ";
-                    cell94 = " ";
-                    cell95 = " ";
-                    cell96 = " ";
-                    cell97 = " ";
-                    cell98 = " ";
-                    cell99 = " ";
-                    cell100 = " ";
-                    cell101 = "|";
-                    cell102 = "|";
-                    cell103 = " ";
-                    cell104 = " ";
-                    cell105 = " ";
-                    cell106 = " ";
-                    cell107 = " ";
-                    cell108 = " ";
-                    cell109 = " ";
-                    cell110 = " ";
-                    cell111 = " ";
-                    cell112 = " ";
-                    cell113 = " ";
-                    cell114 = " ";
-                    cell115 = " ";
-                    cell116 = " ";
-                    cell117 = " ";
-                    cell118 = "|";
-                    cell119 = "|";
-                    cell120 = " ";
-                    cell121 = " ";
-                    cell122 = " ";
-                    cell123 = " ";
-                    cell124 = " ";
-                    cell125 = " ";
-                    cell126 = " ";
-                    cell127 = " ";
-                    cell128 = " ";
-                    cell129 = " ";
-                    cell130 = " ";
-                    cell131 = " ";
-                    cell132 = " ";
-                    cell133 = " ";
-                    cell134 = " ";
-                    cell135 = "|";
-                    cell136 = "|";
-                    cell137 = "_";
-                    cell138 = "_";
-                    cell139 = "_";
-                    cell140 = "_";
-                    cell141 = "_";
-                    cell142 = "_";
-                    cell143 = "_";
-                    cell144 = "_";
-                    cell145 = "_";
-                    cell146 = "_";
-                    cell147 = "_";
-                    cell148 = "_";
-                    cell149 = "_";
-                    cell150 = "_";
-                    cell151 = "_";
-                    cell152 = "|";
-                    break;
+                
+            }
+            int Number = 0;*/
+
+            for (int i = 0; i < 160; i++)
+            {
+                cellNumber++;
+                if (cellNumber % 16 == 0)
+                {
+                    Console.WriteLine("0" + " ");
+                }
+                else
+                {
+                    Console.Write("0" + " ");
+                }
             }
 
-            //Row One
+
+            /*Row One
             Console.Write(cell0 + " ");
             Console.Write(cell1 + " ");
             Console.Write(cell2 + " ");
@@ -484,7 +350,7 @@ namespace ConsoleCrawler
             Console.Write(cell149 + " ");
             Console.Write(cell150 + " ");
             Console.Write(cell151 + " ");
-            Console.Write(cell152 + " ");
+            Console.Write(cell152 + " ");*/
         }
     }
 }
