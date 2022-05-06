@@ -4,7 +4,7 @@ using Microsoft.Xna.Framework.Input;
 
 namespace arcadeGraveyard
 {
-    class Player
+    class Player : GameObject
     {
         // Player Variables
         Rectangle playerRect;
@@ -23,6 +23,12 @@ namespace arcadeGraveyard
         public Vector2 PlayerPos
         {
             get { return position; }
+        }
+
+        public float PlayerPosY
+        {
+            get { return position.Y; }
+            set { position.Y = value; }
         }
 
         public bool IsGrounded
@@ -52,28 +58,29 @@ namespace arcadeGraveyard
         {
             kbState = Keyboard.GetState();
 
-            velocity.X = 0;
-            velocity.Y = 0;
-
             if (kbState.IsKeyDown(Keys.A))
             {
                 velocity.X = -5f;
             }
-
-            if (kbState.IsKeyDown(Keys.D))
+            else if (kbState.IsKeyDown(Keys.D))
             {
                 velocity.X = 5f;
+            }
+            else
+            {
+                velocity.X = 0f;
             }
 
             if (kbState.IsKeyDown(Keys.W) && isGrounded)
             {
-                velocity.Y = -1f;
+                velocity.Y += -20f;
+                IsGrounded = false;
             }
 
             if (isGrounded)
             {
                 gravityMultiplier = 1f;
-                //velocity.Y = 0;
+                velocity.Y = 0;
                 isGrounded = true;
             }
             else
@@ -83,7 +90,7 @@ namespace arcadeGraveyard
                     gravityMultiplier++;
                 }
 
-                velocity.Y = 0.15f * gravityMultiplier;
+                velocity.Y += 0.5f * gravityMultiplier;
                 isGrounded = false;
             }
 

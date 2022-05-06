@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Visual Studio 2019\\Projects\\repos\\arcadeGraveyard\\arcadeGraveyard\\arcadeGraveyard.csproj": {}
+    "C:\\Users\\nerdy\\source\\repos\\cleeps\\arcadeGraveyard\\arcadeGraveyard\\arcadeGraveyard.csproj": {}
   },
   "projects": {
-    "D:\\Visual Studio 2019\\Projects\\repos\\arcadeGraveyard\\arcadeGraveyard\\arcadeGraveyard.csproj": {
+    "C:\\Users\\nerdy\\source\\repos\\cleeps\\arcadeGraveyard\\arcadeGraveyard\\arcadeGraveyard.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Visual Studio 2019\\Projects\\repos\\arcadeGraveyard\\arcadeGraveyard\\arcadeGraveyard.csproj",
+        "projectUniqueName": "C:\\Users\\nerdy\\source\\repos\\cleeps\\arcadeGraveyard\\arcadeGraveyard\\arcadeGraveyard.csproj",
         "projectName": "arcadeGraveyard",
-        "projectPath": "D:\\Visual Studio 2019\\Projects\\repos\\arcadeGraveyard\\arcadeGraveyard\\arcadeGraveyard.csproj",
+        "projectPath": "C:\\Users\\nerdy\\source\\repos\\cleeps\\arcadeGraveyard\\arcadeGraveyard\\arcadeGraveyard.csproj",
         "packagesPath": "C:\\Users\\nerdy\\.nuget\\packages\\",
-        "outputPath": "D:\\Visual Studio 2019\\Projects\\repos\\arcadeGraveyard\\arcadeGraveyard\\obj\\",
+        "outputPath": "C:\\Users\\nerdy\\source\\repos\\cleeps\\arcadeGraveyard\\arcadeGraveyard\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\nerdy\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -59,18 +59,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[3.1.21, 3.1.21]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -44,8 +44,13 @@ namespace arcadeGraveyard
             if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed || Keyboard.GetState().IsKeyDown(Keys.Escape))
                 Exit();
 
-            if (player.PlayerPos.X > tempPlatform.X)
+            if (player.PlayerPos.Y > tempPlatform.Y - player.PlayerRect.Height)
             {
+                while (player.PlayerPos.Y > tempPlatform.Y)
+                {
+                    player.PlayerPosY--;
+                }
+
                 player.IsGrounded = true;
             }
             else

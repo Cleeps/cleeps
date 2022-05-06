@@ -23,3 +23,28 @@ D:\Visual Studio 2019\Projects\repos\arcadeGraveyard\arcadeGraveyard\obj\Debug\n
 D:\Visual Studio 2019\Projects\repos\arcadeGraveyard\arcadeGraveyard\obj\Debug\netcoreapp3.1\arcadeGraveyard.dll
 D:\Visual Studio 2019\Projects\repos\arcadeGraveyard\arcadeGraveyard\obj\Debug\netcoreapp3.1\arcadeGraveyard.pdb
 D:\Visual Studio 2019\Projects\repos\arcadeGraveyard\arcadeGraveyard\obj\Debug\netcoreapp3.1\arcadeGraveyard.genruntimeconfig.cache
+C:\Users\nerdy\source\repos\cleeps\arcadeGraveyard\arcadeGraveyard\bin\Debug\netcoreapp3.1\Content\littleWhiteSquare.xnb
+C:\Users\nerdy\source\repos\cleeps\arcadeGraveyard\arcadeGraveyard\bin\Debug\netcoreapp3.1\arcadeGraveyard.exe
+C:\Users\nerdy\source\repos\cleeps\arcadeGraveyard\arcadeGraveyard\bin\Debug\netcoreapp3.1\arcadeGraveyard.deps.json
+C:\Users\nerdy\source\repos\cleeps\arcadeGraveyard\arcadeGraveyard\bin\Debug\netcoreapp3.1\arcadeGraveyard.runtimeconfig.json
+C:\Users\nerdy\source\repos\cleeps\arcadeGraveyard\arcadeGraveyard\bin\Debug\netcoreapp3.1\arcadeGraveyard.runtimeconfig.dev.json
+C:\Users\nerdy\source\repos\cleeps\arcadeGraveyard\arcadeGraveyard\bin\Debug\netcoreapp3.1\arcadeGraveyard.dll
+C:\Users\nerdy\source\repos\cleeps\arcadeGraveyard\arcadeGraveyard\bin\Debug\netcoreapp3.1\arcadeGraveyard.pdb
+C:\Users\nerdy\source\repos\cleeps\arcadeGraveyard\arcadeGraveyard\bin\Debug\netcoreapp3.1\MonoGame.Framework.dll
+C:\Users\nerdy\source\repos\cleeps\arcadeGraveyard\arcadeGraveyard\bin\Debug\netcoreapp3.1\runtimes\linux-x64\native\libSDL2-2.0.so.0
+C:\Users\nerdy\source\repos\cleeps\arcadeGraveyard\arcadeGraveyard\bin\Debug\netcoreapp3.1\runtimes\linux-x64\native\libopenal.so.1
+C:\Users\nerdy\source\repos\cleeps\arcadeGraveyard\arcadeGraveyard\bin\Debug\netcoreapp3.1\runtimes\osx\native\libSDL2-2.0.0.dylib
+C:\Users\nerdy\source\repos\cleeps\arcadeGraveyard\arcadeGraveyard\bin\Debug\netcoreapp3.1\runtimes\osx\native\libopenal.1.dylib
+C:\Users\nerdy\source\repos\cleeps\arcadeGraveyard\arcadeGraveyard\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\SDL2.dll
+C:\Users\nerdy\source\repos\cleeps\arcadeGraveyard\arcadeGraveyard\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\soft_oal.dll
+C:\Users\nerdy\source\repos\cleeps\arcadeGraveyard\arcadeGraveyard\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\SDL2.dll
+C:\Users\nerdy\source\repos\cleeps\arcadeGraveyard\arcadeGraveyard\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\soft_oal.dll
+C:\Users\nerdy\source\repos\cleeps\arcadeGraveyard\arcadeGraveyard\obj\Debug\netcoreapp3.1\arcadeGraveyard.csproj.AssemblyReference.cache
+C:\Users\nerdy\source\repos\cleeps\arcadeGraveyard\arcadeGraveyard\obj\Debug\netcoreapp3.1\arcadeGraveyard.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nerdy\source\repos\cleeps\arcadeGraveyard\arcadeGraveyard\obj\Debug\netcoreapp3.1\arcadeGraveyard.AssemblyInfoInputs.cache
+C:\Users\nerdy\source\repos\cleeps\arcadeGraveyard\arcadeGraveyard\obj\Debug\netcoreapp3.1\arcadeGraveyard.AssemblyInfo.cs
+C:\Users\nerdy\source\repos\cleeps\arcadeGraveyard\arcadeGraveyard\obj\Debug\netcoreapp3.1\arcadeGraveyard.csproj.CoreCompileInputs.cache
+C:\Users\nerdy\source\repos\cleeps\arcadeGraveyard\arcadeGraveyard\obj\Debug\netcoreapp3.1\arcadeGraveyard.csproj.CopyComplete
+C:\Users\nerdy\source\repos\cleeps\arcadeGraveyard\arcadeGraveyard\obj\Debug\netcoreapp3.1\arcadeGraveyard.dll
+C:\Users\nerdy\source\repos\cleeps\arcadeGraveyard\arcadeGraveyard\obj\Debug\netcoreapp3.1\arcadeGraveyard.pdb
+C:\Users\nerdy\source\repos\cleeps\arcadeGraveyard\arcadeGraveyard\obj\Debug\netcoreapp3.1\arcadeGraveyard.genruntimeconfig.cache
