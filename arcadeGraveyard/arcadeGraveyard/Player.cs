@@ -1,5 +1,4 @@
-﻿
-using Microsoft.Xna.Framework;
+﻿using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Input;
 
 namespace arcadeGraveyard
@@ -7,10 +6,10 @@ namespace arcadeGraveyard
     class Player : GameObject
     {
         // Player Variables
-        Rectangle playerRect;
+        //Rectangle playerRect;
         KeyboardState kbState;
         Vector2 velocity;
-        Vector2 position;
+        //Vector2 position;
         float gravityMultiplier = 1f;
         bool isGrounded;
 
@@ -39,16 +38,17 @@ namespace arcadeGraveyard
 
         public Rectangle PlayerRect
         {
-            get { return playerRect; }
-            set { playerRect = value; }
+            get { return rectangle; }
+            set { rectangle = value; }
         }
 
         /// <summary>
         /// Player constructor
         /// </summary>
-        public Player()
+        public Player(Vector2 pos)
         {
-            playerRect = new Rectangle(0, 0, 32, 32);
+            position = pos;
+            rectangle = new Rectangle(0, 0, 32, 32);
         }
 
         /// <summary>

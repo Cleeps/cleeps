@@ -4,7 +4,7 @@
   <Platform>DesktopGL</Platform>
   <Config />
   <SourceFiles>
-    <File>C:/Users/nerdy/source/repos/cleeps/arcadeGraveyard/arcadeGraveyard/Content/littleWhiteSquare.png</File>
+    <File>D:/Visual Studio 2019/Projects/repos/arcadeGraveyard/arcadeGraveyard/Content/littleWhiteSquare.png</File>
   </SourceFiles>
   <DestFiles>
     <File xsi:nil="true" />

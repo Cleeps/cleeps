@@ -12,7 +12,7 @@ namespace arcadeGraveyard
         // Player Assets
         Texture2D tempPlayerTexture;
         Player player;
-        Rectangle tempPlatform;
+        Platform tempPlatform;
 
         public Game1()
         {
@@ -33,8 +33,8 @@ namespace arcadeGraveyard
             _spriteBatch = new SpriteBatch(GraphicsDevice);
             tempPlayerTexture = Content.Load<Texture2D>("littleWhiteSquare");
 
-            player = new Player();
-            tempPlatform = new Rectangle(GraphicsDevice.Viewport.Width/2, GraphicsDevice.Viewport.Height/2 + 200, 64, 32);
+            player = new Player(new Vector2(GraphicsDevice.Viewport.Width / 2, 0));
+            tempPlatform = new Platform(GraphicsDevice.Viewport.Width/2, GraphicsDevice.Viewport.Height/2 + 200, 64, 32);
 
             // TODO: use this.Content to load your game content here
         }
@@ -44,12 +44,29 @@ namespace arcadeGraveyard
             if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed || Keyboard.GetState().IsKeyDown(Keys.Escape))
                 Exit();
 
-            if (player.PlayerPos.Y > tempPlatform.Y - player.PlayerRect.Height)
+            //if (player.PlayerPos.Y + player.PlayerRect.Height > tempPlatform.Top)
+            //{
+            //    //while (player.PlayerPos.Y + player.PlayerRect.Height != tempPlatform.Top)
+            //    //{
+            //    //    player.PlayerPosY--;
+            //    //}
+
+            //    player.IsGrounded = true;
+            //}
+            //else
+            //{
+            //    //if (player.PlayerPos.Y + player.PlayerRect.Height != tempPlatform.Top)
+            //    //{
+            //    //    player.IsGrounded = false;
+            //    //}
+            //}
+
+            player.Update();
+
+            if (player.CheckYCollision(player, tempPlatform) &&
+                player.IsInBoundsOfX(player, tempPlatform))
             {
-                while (player.PlayerPos.Y > tempPlatform.Y)
-                {
-                    player.PlayerPosY--;
-                }
+                player.PlayerPosY = tempPlatform.PlatformPosition.Y - player.PlayerRect.Height;
 
                 player.IsGrounded = true;
             }
@@ -57,8 +74,6 @@ namespace arcadeGraveyard
             {
                 player.IsGrounded = false;
             }
-
-            player.Update();
 
             // TODO: Add your update logic here
 
@@ -73,7 +88,7 @@ namespace arcadeGraveyard
 
             _spriteBatch.Begin();
 
-            _spriteBatch.Draw(tempPlayerTexture, tempPlatform, Color.White);
+            _spriteBatch.Draw(tempPlayerTexture, tempPlatform.PlatformPosition, Color.White);
             _spriteBatch.Draw(tempPlayerTexture, player.PlayerPos, Color.White);
 
             _spriteBatch.End();
