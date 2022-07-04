@@ -11,10 +11,10 @@ namespace ghostGame
     {
         private KeyboardState keyboardState;
         //private Vector2 updatePos;
-        private double updatePosX;
-        private double updatePosY;
-        private const int maxSpeed = 10;
-        private const int minSpeed = -10;
+        private float updatePosX;
+        private float updatePosY;
+        private const int maxSpeed = 8;
+        private const int minSpeed = -8;
 
         public Ghost(Texture2D text, Vector2 pos)
         {
@@ -31,27 +31,25 @@ namespace ghostGame
         public void Update()
         {
             keyboardState = Keyboard.GetState();
-            //updatePos.X = 0;
-            //updatePos.Y = 0;
 
             if (keyboardState.IsKeyDown(Keys.W))
             {
-                updatePosY -= 2;
+                updatePosY -= 1f;
             }
 
             if (keyboardState.IsKeyDown(Keys.S))
             {
-                updatePosY += 2;
+                updatePosY += 1f;
             }
 
             if (keyboardState.IsKeyDown(Keys.D))
             {
-                updatePosX += 2;
+                updatePosX += 1f;
             }
 
             if (keyboardState.IsKeyDown(Keys.A))
             {
-                updatePosX -= 2;
+                updatePosX -= 1f;
             }
 
             // While the player isn't moving, slow them down
@@ -64,11 +62,16 @@ namespace ghostGame
                 {
                     if (updatePosX > 0)
                     {
-                        updatePosX--;
+                        updatePosX -= 0.2f;
                     }
                     else
                     {
-                        updatePosX--;
+                        updatePosX += 0.2f;
+                    }
+
+                    if (updatePosX > -0.1 && updatePosX < 0.1)
+                    {
+                        updatePosX = 0;
                     }
                 }
 
@@ -76,11 +79,16 @@ namespace ghostGame
                 {
                     if (updatePosY > 0)
                     {
-                        updatePosY--;
+                        updatePosY -= 0.2f;
                     }
                     else
                     {
-                        updatePosY++;
+                        updatePosY += 0.2f;
+                    }
+
+                    if (updatePosY > -0.1 && updatePosY < 0.1)
+                    {
+                        updatePosY = 0;
                     }
 
                 }
@@ -111,8 +119,8 @@ namespace ghostGame
                 }
             }
 
-            position.X += int.Parse(updatePosX);
-            position.Y += int.Parse(updatePosY); 
+            position.X += (updatePosX);
+            position.Y += (updatePosY); 
         }
 
         public void Draw(SpriteBatch _spriteBatch, Texture2D texture, Vector2 position)

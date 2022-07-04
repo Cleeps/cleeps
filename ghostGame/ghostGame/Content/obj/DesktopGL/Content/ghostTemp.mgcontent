@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <SourceFile>C:/Users/nerdy/source/repos/cleeps/ghostGame/ghostGame/Content/littleWhiteSquare.png</SourceFile>
-  <SourceTime>2022-07-01T13:33:45.0742635-04:00</SourceTime>
-  <DestFile>C:/Users/nerdy/source/repos/cleeps/ghostGame/ghostGame/Content/bin/DesktopGL/Content/littleWhiteSquare.xnb</DestFile>
-  <DestTime>2022-07-01T13:34:41.5565494-04:00</DestTime>
+  <SourceFile>C:/Users/nerdy/source/repos/cleeps/ghostGame/ghostGame/Content/ghostTemp.png</SourceFile>
+  <SourceTime>2022-07-01T14:18:57.6150658-04:00</SourceTime>
+  <DestFile>C:/Users/nerdy/source/repos/cleeps/ghostGame/ghostGame/Content/bin/DesktopGL/Content/ghostTemp.xnb</DestFile>
+  <DestTime>2022-07-01T14:21:36.7137504-04:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2020-08-10T12:17:54-04:00</ImporterTime>
   <Processor>TextureProcessor</Processor>

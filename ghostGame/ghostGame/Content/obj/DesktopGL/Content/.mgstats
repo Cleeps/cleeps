@@ -1,2 +1,4 @@
 Source File,Dest File,Processor Type,Content Type,Source File Size,Dest File Size,Build Seconds
-"D:/Visual Studio 2019/Projects/repos/ghostGame/ghostGame/Content/littleWhiteSquare.png","D:/Visual Studio 2019/Projects/repos/ghostGame/ghostGame/Content/bin/DesktopGL/Content/littleWhiteSquare.xnb","TextureProcessor","Texture2DContent",125,4181,0.1938263
+"C:/Users/nerdy/source/repos/cleeps/ghostGame/ghostGame/Content/crosshair.png","C:/Users/nerdy/source/repos/cleeps/ghostGame/ghostGame/Content/bin/DesktopGL/Content/crosshair.xnb","TextureProcessor","Texture2DContent",385,16469,0.1919004
+"C:/Users/nerdy/source/repos/cleeps/ghostGame/ghostGame/Content/ghostTemp.png","C:/Users/nerdy/source/repos/cleeps/ghostGame/ghostGame/Content/bin/DesktopGL/Content/ghostTemp.xnb","TextureProcessor","Texture2DContent",281,4133,0.1087363
+"C:/Users/nerdy/source/repos/cleeps/ghostGame/ghostGame/Content/littleWhiteSquare.png","C:/Users/nerdy/source/repos/cleeps/ghostGame/ghostGame/Content/bin/DesktopGL/Content/littleWhiteSquare.xnb","TextureProcessor","Texture2DContent",125,4181,0.1517875

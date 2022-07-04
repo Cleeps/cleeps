@@ -23,3 +23,30 @@ D:\Visual Studio 2019\Projects\repos\ghostGame\ghostGame\obj\Debug\netcoreapp3.1
 D:\Visual Studio 2019\Projects\repos\ghostGame\ghostGame\obj\Debug\netcoreapp3.1\ghostGame.pdb
 D:\Visual Studio 2019\Projects\repos\ghostGame\ghostGame\obj\Debug\netcoreapp3.1\ghostGame.genruntimeconfig.cache
 D:\Visual Studio 2019\Projects\repos\ghostGame\ghostGame\bin\Debug\netcoreapp3.1\Content\littleWhiteSquare.xnb
+C:\Users\nerdy\source\repos\cleeps\ghostGame\ghostGame\obj\Debug\netcoreapp3.1\ghostGame.csproj.AssemblyReference.cache
+C:\Users\nerdy\source\repos\cleeps\ghostGame\ghostGame\obj\Debug\netcoreapp3.1\ghostGame.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nerdy\source\repos\cleeps\ghostGame\ghostGame\obj\Debug\netcoreapp3.1\ghostGame.AssemblyInfoInputs.cache
+C:\Users\nerdy\source\repos\cleeps\ghostGame\ghostGame\obj\Debug\netcoreapp3.1\ghostGame.AssemblyInfo.cs
+C:\Users\nerdy\source\repos\cleeps\ghostGame\ghostGame\obj\Debug\netcoreapp3.1\ghostGame.csproj.CoreCompileInputs.cache
+C:\Users\nerdy\source\repos\cleeps\ghostGame\ghostGame\obj\Debug\netcoreapp3.1\ghostGame.dll
+C:\Users\nerdy\source\repos\cleeps\ghostGame\ghostGame\obj\Debug\netcoreapp3.1\ghostGame.pdb
+C:\Users\nerdy\source\repos\cleeps\ghostGame\ghostGame\bin\Debug\netcoreapp3.1\Content\littleWhiteSquare.xnb
+C:\Users\nerdy\source\repos\cleeps\ghostGame\ghostGame\bin\Debug\netcoreapp3.1\ghostGame.exe
+C:\Users\nerdy\source\repos\cleeps\ghostGame\ghostGame\bin\Debug\netcoreapp3.1\ghostGame.deps.json
+C:\Users\nerdy\source\repos\cleeps\ghostGame\ghostGame\bin\Debug\netcoreapp3.1\ghostGame.runtimeconfig.json
+C:\Users\nerdy\source\repos\cleeps\ghostGame\ghostGame\bin\Debug\netcoreapp3.1\ghostGame.runtimeconfig.dev.json
+C:\Users\nerdy\source\repos\cleeps\ghostGame\ghostGame\bin\Debug\netcoreapp3.1\ghostGame.dll
+C:\Users\nerdy\source\repos\cleeps\ghostGame\ghostGame\bin\Debug\netcoreapp3.1\ghostGame.pdb
+C:\Users\nerdy\source\repos\cleeps\ghostGame\ghostGame\bin\Debug\netcoreapp3.1\MonoGame.Framework.dll
+C:\Users\nerdy\source\repos\cleeps\ghostGame\ghostGame\bin\Debug\netcoreapp3.1\runtimes\linux-x64\native\libSDL2-2.0.so.0
+C:\Users\nerdy\source\repos\cleeps\ghostGame\ghostGame\bin\Debug\netcoreapp3.1\runtimes\linux-x64\native\libopenal.so.1
+C:\Users\nerdy\source\repos\cleeps\ghostGame\ghostGame\bin\Debug\netcoreapp3.1\runtimes\osx\native\libSDL2-2.0.0.dylib
+C:\Users\nerdy\source\repos\cleeps\ghostGame\ghostGame\bin\Debug\netcoreapp3.1\runtimes\osx\native\libopenal.1.dylib
+C:\Users\nerdy\source\repos\cleeps\ghostGame\ghostGame\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\SDL2.dll
+C:\Users\nerdy\source\repos\cleeps\ghostGame\ghostGame\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\soft_oal.dll
+C:\Users\nerdy\source\repos\cleeps\ghostGame\ghostGame\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\SDL2.dll
+C:\Users\nerdy\source\repos\cleeps\ghostGame\ghostGame\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\soft_oal.dll
+C:\Users\nerdy\source\repos\cleeps\ghostGame\ghostGame\obj\Debug\netcoreapp3.1\ghostGame.csproj.CopyComplete
+C:\Users\nerdy\source\repos\cleeps\ghostGame\ghostGame\obj\Debug\netcoreapp3.1\ghostGame.genruntimeconfig.cache
+C:\Users\nerdy\source\repos\cleeps\ghostGame\ghostGame\bin\Debug\netcoreapp3.1\Content\ghostTemp.xnb
+C:\Users\nerdy\source\repos\cleeps\ghostGame\ghostGame\bin\Debug\netcoreapp3.1\Content\crosshair.xnb

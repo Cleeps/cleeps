@@ -9,7 +9,14 @@ namespace ghostGame
         private GraphicsDeviceManager _graphics;
         private SpriteBatch _spriteBatch;
         private Texture2D testSquare;
+        private Texture2D ghostTest;
+        private Texture2D crosshairText;
+        private KeyboardState kbState;
+        private KeyboardState prevKbState;
         private Ghost ghost;
+        private Snowman snowman;
+        private Crosshair crosshair;
+        private int gameNum = 0;
 
         public Game1()
         {
@@ -29,8 +36,13 @@ namespace ghostGame
         {
             _spriteBatch = new SpriteBatch(GraphicsDevice);
             testSquare = Content.Load<Texture2D>("littleWhiteSquare");
+            ghostTest = Content.Load<Texture2D>("ghostTemp");
+            crosshairText = Content.Load<Texture2D>("crosshair");
 
-            ghost = new Ghost(testSquare, new Vector2(100, 100));
+
+            ghost = new Ghost(ghostTest, new Vector2(100, 100));
+            snowman = new Snowman(testSquare, new Vector2(100, 100));
+            crosshair = new Crosshair(crosshairText, new Vector2(0, 0));
 
             // TODO: use this.Content to load your game content here
         }
@@ -40,9 +52,31 @@ namespace ghostGame
             if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed || Keyboard.GetState().IsKeyDown(Keys.Escape))
                 Exit();
 
-            ghost.Update();
+            kbState = Keyboard.GetState();
 
-            // TODO: Add your update logic here
+            if (kbState.IsKeyUp(Keys.OemTilde) && prevKbState.IsKeyDown(Keys.OemTilde))
+            {
+                gameNum += 1;
+
+                if (gameNum > 1)
+                {
+                    gameNum = 0;
+                }
+            }
+
+            switch (gameNum)
+            { 
+                case 0:
+                    ghost.Update();
+                    break;
+
+                case 1:
+                    snowman.Update();
+                    crosshair.Update(testSquare, snowman);
+                    break;
+            }
+
+            prevKbState = Keyboard.GetState();
 
             base.Update(gameTime);
         }
@@ -53,7 +87,17 @@ namespace ghostGame
 
             _spriteBatch.Begin();
 
-            ghost.Draw(_spriteBatch, testSquare, ghost.Positon);
+            switch (gameNum)
+            {
+                case 0:
+                    ghost.Draw(_spriteBatch, ghostTest, ghost.Positon);
+                    break;
+
+                case 1:
+                    snowman.Draw(_spriteBatch);
+                    crosshair.Draw(_spriteBatch);
+                    break;
+            }
 
             _spriteBatch.End();
 

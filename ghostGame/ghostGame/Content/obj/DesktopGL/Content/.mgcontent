@@ -4,9 +4,13 @@
   <Platform>DesktopGL</Platform>
   <Config />
   <SourceFiles>
-    <File>D:/Visual Studio 2019/Projects/repos/ghostGame/ghostGame/Content/littleWhiteSquare.png</File>
+    <File>C:/Users/nerdy/source/repos/cleeps/ghostGame/ghostGame/Content/crosshair.png</File>
+    <File>C:/Users/nerdy/source/repos/cleeps/ghostGame/ghostGame/Content/ghostTemp.png</File>
+    <File>C:/Users/nerdy/source/repos/cleeps/ghostGame/ghostGame/Content/littleWhiteSquare.png</File>
   </SourceFiles>
   <DestFiles>
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
     <File xsi:nil="true" />
   </DestFiles>
 </SourceFileCollection>
