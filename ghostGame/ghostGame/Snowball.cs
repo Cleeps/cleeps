@@ -37,7 +37,7 @@ namespace ghostGame
         {
             float distance = (float)Math.Sqrt((xDifference * xDifference) + (yDifference * yDifference));
 
-            if ()
+            /*if ()
             {
                 if (xDifference > 0)
                 {
@@ -59,7 +59,7 @@ namespace ghostGame
                 {
                     this.position.Y += (yDifference / distance) * (-1);
                 }
-            }
+            }*/
         }
 
         public void Draw(SpriteBatch _spriteBatch)
