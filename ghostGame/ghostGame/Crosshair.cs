@@ -10,6 +10,7 @@ namespace ghostGame
     class Crosshair : GameObject
     {
         MouseState mouseState;
+        MouseState prevMouseState;
         int targetPosX;
         int targetPosY;
         List<Snowball> snowballs = new List<Snowball>();
@@ -26,7 +27,7 @@ namespace ghostGame
             targetPosX = mouseState.X - 32;
             targetPosY = mouseState.Y - 32;
 
-            if (mouseState.LeftButton == ButtonState.Pressed)
+            if (mouseState.LeftButton == ButtonState.Released && prevMouseState.LeftButton == ButtonState.Pressed)
             {
                 snowballs.Add(new Snowball(ballTexture, new Vector2(snowman.X, snowman.Y), targetPosX, targetPosY));
             }
@@ -38,6 +39,8 @@ namespace ghostGame
 
             this.position.X = targetPosX;
             this.position.Y = targetPosY;
+
+            prevMouseState = Mouse.GetState();
         }
 
         public void Draw(SpriteBatch _spriteBatch)
